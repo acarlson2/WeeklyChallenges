@@ -104,7 +104,14 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+            List<long> nums = new List<long>();
+
+            for(int i = 0; i <= number; i++)
+            {
+                nums.Add(i);
+            }
+
+            return nums.Where(num => num % 2 != 0).Count();
         }
     }
 }
