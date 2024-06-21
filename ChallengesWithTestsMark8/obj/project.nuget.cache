@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5Tg7q2vIDug=",
+  "dgSpecHash": "2wmE2mJq//nMN8FMasFuQNgkumHUoCf+UuAwSriL+TrUPBqBPbRSdJ9PZUs7XXfO1fyQteVpn0rivpKPOCb7GQ==",
   "success": true,
   "projectFilePath": "/Users/aaroncarlson/Desktop/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/aaroncarlson/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/aaroncarlson/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.30/microsoft.netcore.app.host.osx-x64.6.0.30.nupkg.sha512",
+    "/Users/aaroncarlson/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512"
+  ],
   "logs": []
 }

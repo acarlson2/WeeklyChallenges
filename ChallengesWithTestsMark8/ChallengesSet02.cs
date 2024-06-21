@@ -61,6 +61,10 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
+            if (numbers == null || numbers.Count() == 0)
+            {
+                return 0;
+            }
             double min = numbers.Min();
             double max = numbers.Max();
 
@@ -81,17 +85,29 @@ namespace ChallengesWithTestsMark8
 
         public int Sum(int[] numbers)
         {
+            if(numbers == null)
+            {
+                return 0;
+            }
             return numbers.Sum();
         }
 
         public int SumEvens(int[] numbers)
         {
+            if(numbers == null)
+            {
+                return 0;
+            }
             var retVal = numbers.Where(num => num % 2 == 0);
             return retVal.Sum();
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
+            if(numbers == null)
+            {
+                return false;
+            }
             if(numbers.Sum() % 2 != 0)
             {
                 return true;
@@ -106,7 +122,7 @@ namespace ChallengesWithTestsMark8
         {
             List<long> nums = new List<long>();
 
-            for(int i = 0; i <= number; i++)
+            for(int i = 0; i < number; i++)
             {
                 nums.Add(i);
             }
